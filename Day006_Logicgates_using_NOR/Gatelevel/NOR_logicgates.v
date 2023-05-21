@@ -1,0 +1,3 @@
+nor 
+gates.v
+vh
