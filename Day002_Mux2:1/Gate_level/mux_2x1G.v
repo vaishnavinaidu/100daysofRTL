@@ -1,4 +1,4 @@
-module 2x1mux (a,b,s0,y);
+module mux_2x1 (a,b,s0,y);
   input a,b,s0;
   output y;
   // y = a*s0+b*s0’;
