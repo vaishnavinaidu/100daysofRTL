@@ -1,8 +1,8 @@
-module 2x1mux_tb();
+module mux_2x1tb();
   reg a,b,s0;
   wire y;  
 
-2x1mux dut (.a(a), .b(b), .s0(s0), .y(y));
+mux_2x1 dut (.a(a), .b(b), .s0(s0), .y(y));
   
   initial
     begin
